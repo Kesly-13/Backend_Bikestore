@@ -12,6 +12,7 @@ const conexion = mysql.createConnection({
     password: 'Kesly#24', //Recuerda cambiar la contraseña que utilizas en tu base de datos
     database: 'bike_store',
     // port: 3307
+    // Esto ya se subio a github y funciona perfectamente
 });
 
 // Funcion para la conexión y la reconexión
