@@ -1,0 +1,54 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Salida de construcción
+dist/
+build/
+coverage/
+.out/
+.next/
+
+# Archivos de logs
+logs
+*.log
+logs/*.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+lerna-debug.log
+.husky/_
+
+# Configuración de editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Archivos de caché
+.cache/
+.nyc_output/
+.pnp/
+.pnp.js
+.eslintcache
+stylelintcache
+
+# Configuración de herramientas
+.DS_Store
+Thumbs.db
+
+# Archivos de testing
+jest.config.js
+coverage/
+__tests__/
+__mocks__/
