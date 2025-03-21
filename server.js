@@ -13,6 +13,8 @@ const conexion = mysql.createConnection({
     database: 'bike_store',
     // port: 3307
     // Esto ya se subio a github y funciona perfectamente
+    //Comentario prueba subir a una rama
+
 });
 
 // Funcion para la conexión y la reconexión
